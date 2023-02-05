@@ -4,12 +4,13 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 // import CreateProductForm from './CreateProductForm';
-import BootstrapCreateProductForm from './BootstrapCreateProductForm';
+// import BootstrapCreateProductForm from './BootstrapCreateProductForm';
+import LoginForm from './LoginForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-    <BootstrapCreateProductForm />
+    <LoginForm />
   // </React.StrictMode>
 );
 
